@@ -1,1 +1,6 @@
 /* Style for index.html */
+.navbar.custom {
+    margin: 0 auto;
+    height: 70px;
+}
+
