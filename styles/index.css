@@ -1,1 +1,7 @@
 /* Style for index.html */
+header{
+    margin: 0;
+    padding-left: 0;
+    font-family: sans-serif;
+    color: aquamarine;
+}
