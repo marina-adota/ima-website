@@ -21,50 +21,188 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="d-flex flex-column" style="height: 100dvh">
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <H1>Logo aqui</H1>
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Como ajudar?</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Adoções</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Doações</a></li>
-                </ul>
-            </div>
-            <div class="login-button">
-                <button><a href="#">Instagram</a></button>
-            </div>
+<body style="height: 100vh">
 
+    <!-- Nav -->
+    <header style="height: 5vh;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <!-- Aqui deve ficar a logo -->
+                <a class="navbar-brand" href="#">Logo</a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Menu itens -->
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="ms-auto navbar-nav">
+                        <a class="nav-link" aria-current="page" href="#">Como ajudar ?</a>
+                        <a class="nav-link active" href="#">Adoções</a>
+                        <a class="nav-link" href="#">Doações</a>
+                        <a class="nav-link" href="#">Instagram</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <!--corpo -->
-    <div id="page-body" class="flex-grow-1">
-        <label class="texto1" for="Caixa-texto">
-            <p>Gostou de algum pet e quer adotar?</p>
-        </label>
-        <label class="texto2" for="Caixa-texto"> É bem simples</label>
-        <ul class="nav-item">
-            <p class="lista">Mande uma mensagem no Instagram.</p>
-        </ul>
-        <ul class="nav-item">
-            <p class="lista">Diga qual pet você tem interesse em adotar</p>
-        </ul>
-        <ul class="nav-item">
-            <p class="lista">Mande seu whatsapp e entraremos em contato</p>
-        </ul>
+    <!-- main -->
+    <main style="height: 95vh;" class="row col-12">
 
-        <div class="button-insta">
-            <button><a href="#">Instagram</a></button>
+        <!-- Text -->
+        <div id="text" class="col-7 mx-auto d-flex flex-column pt-5" style="height: 95vh;">
+            <h2 class="col-7 text-start mx-auto mt-auto">Gostou de algum pet <br> e quer adotar?</h2>
+            <h6 class="mx-auto mt-5 col-7">É bem simples</h6>
+            <ol class="mx-auto text-start mt-2 col-7 mb-auto">
+                <li>
+                    Passo 1
+                </li>
+                <li>
+                    Passo 2
+                </li>
+                <li>
+                    Passo 3
+                </li>
+            </ol>
+            <div class="col-7 text-start mb-auto mx-auto">
+                <a type="button" class="btn btn-primary">Instagram <i class="ms-2 fa-xl fas fa-arrow-right-long"></i></a>
+            </div>
         </div>
 
-    </div>
+        <!-- Images -->
+        <div id="images" class="col-5 bg-dark mx-auto">
+            a
+        </div>
 
-    <!--rodapé-->
-    <div id="page-footer" class="bg-secondary-subtle">Rodepé</div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                            Here you can use rows and columns to organize your footer content. Lorem ipsum
+                            dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Vue</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Laravel</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
