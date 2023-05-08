@@ -1,1 +1,24 @@
 /* Style for index.html */
+.navbar.custom {
+    margin: 0 auto;
+    height: 50px;
+}
+
+.continous-flow {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+body {
+    height: 100vh;
+}
+
+.margin-page {
+    margin-left: 165px;
+}
