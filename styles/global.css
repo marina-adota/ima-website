@@ -47,3 +47,7 @@ header{
     background-color: #F0FF88 !important;
 
 }
+
+.btn{
+    text-transform: capitalize;
+}
