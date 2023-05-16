@@ -101,7 +101,11 @@
                 <div class="text-center card-body">
                     <img style="height: 40%;" src="images/Pix de QR Code.png" alt="">
                     <h5 class="mt-2 card-title">QR Code</h5>
-
+                    <div class="container">
+                        <h1>Botão de Cópia</h1>
+                        <p id="text-to-copy">Texto a ser copiado.</p>
+                        <button class="btn btn-copy" onclick="copyText()">Copiar</button>
+                    </div>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
@@ -235,7 +239,19 @@
     <!-- Footer -->
     <!-- MDB -->
 
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script>
+        function copyText() {
+            var text = document.getElementById('text-to-copy');
+            var range = document.createRange();
+            range.selectNode(text);
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand('copy');
+            window.getSelection().removeAllRanges();
+        }
+    </script>
 </body>
 
 </html>
