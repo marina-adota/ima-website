@@ -5,3 +5,11 @@ header{
     font-family: sans-serif;
     color: aquamarine;
 }
+
+.bg-nav{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.nav-text-size {
+    font-size: medium;
+}
