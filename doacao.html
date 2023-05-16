@@ -241,17 +241,7 @@
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
-    <script>
-        function copyText() {
-            var text = document.getElementById('text-to-copy');
-            var range = document.createRange();
-            range.selectNode(text);
-            window.getSelection().removeAllRanges();
-            window.getSelection().addRange(range);
-            document.execCommand('copy');
-            window.getSelection().removeAllRanges();
-        }
-    </script>
+    <script src="js/doacao.js"></script>
 </body>
 
 </html>
