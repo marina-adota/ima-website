@@ -13,3 +13,41 @@ header{
 .nav-text-size {
     font-size: medium;
 }
+
+.bg-primary{
+    background-color: #76CEF2 !important;
+}
+
+.bg-secondary{
+    background-color: #E0ADCE !important;
+}
+
+.bg-third{
+    background-color: #F0FF88 !important;
+}
+
+.text-primary{
+    color: #76CEF2 !important;
+}
+.text-secondary{
+    color:#E0ADCE !important;
+}
+.text-third{
+    color:#F0FF88 !important;
+}
+
+.btn-primary{
+    background-color: #76CEF2 !important;
+
+}
+.btn-secondary{
+    background-color: #E0ADCE !important;
+}
+.btn-third{
+    background-color: #F0FF88 !important;
+
+}
+
+.btn{
+    text-transform: capitalize;
+}
