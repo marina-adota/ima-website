@@ -41,7 +41,8 @@
                 <!-- Left links -->
 
                 <div class="d-flex ms-auto text-capitalize">
-                    <a type="button" href="./como-ajudar.html" class="nav-text-size text-black nav-link px-3 me-2 my-auto">
+                    <a type="button" href="./como-ajudar.html"
+                        class="nav-text-size text-black nav-link px-3 me-2 my-auto">
                         como ajudar?
                     </a>
                     <a type="button" href="./adocoes.html" class="nav-text-size text-black nav-link px-3 me-2 my-auto">
@@ -65,47 +66,55 @@
         <!-- Text -->
         <div id="text" class="col-4 m-auto">
             <h2 class="text-start me-auto">Você pode doar <br> algum valor?</h2>
-            <h6 class="me-auto mt-2 text-start">A doação pode ajudar com nossas despesas:</h6>
-                <p >
-                    Aluguel
-                </p>
-                <p>
-                    Funcionários
-                </p>
-                <p>
-                    Água
-                </p>
-                <p>
-                    Energia
-                </p>
-                <p>
-                    Ração
-                </p>
-                <p>
-                    Medicamentos
-                </p>
-                <p>
-                    Veterinários
-                </p>
-                <p>
-                    Material de pmpeza
-                </p>
+            <h6 class="me-auto mt-4 text-start">A doação pode ajudar com nossas despesas:</h6>
+            <ul>
+            <li class="mt-5 mb-0">
+                Aluguel;
+            </li>
+            <li class="mt-0 mb-0">
+                Funcionários;
+            </li>
+            <li class="mt-0 mb-0">
+                Água;
+            </li>
+            <li class="mt-0 mb-0">
+                Energia;
+            </li>
+            <li class="mt-0 mb-0">
+                Ração;
+            </li>
+            <li class="mt-0 mb-0">
+                Medicamentos;
+            </li>
+            <li class="mt-0 mb-0">
+                Veterinário;
+            </li>
+            <li class="mt-0 mb-5">
+                Material de limpeza.
+            </li>
+        </ul>
             <h6 class="me-auto  text-start ">Precisamos de ajuda para continuar mantendo o abrigo e os resgatados.</h6>
 
         </div>
-        
+
         <!-- pix -->
-        <div class="col-3 m-auto" style="height: 70%;">
-            <div class="card m-auto" style="height: 100%;">
-                <div class="card-body mx-auto mt-4">
-                      <h5 class=" card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="col-3 mx-auto mt-5" style="height: 70%;">
+            <div class="card" style="height: 120%; width: 120%;">
+                <div class="text-center card-body">
+                    <img class="mt-3 mt-5" style="height: 40%;" src="images/Pix-de-QR-Code.png" alt="">
+                    <h5 class="mt-2 card-title">QR Code</h5>
+                    <div class="mt-5 container">
+                        <p class="mb-3">PIX:</p>
+                        <p class="" id="text-to-copy">43.584.462/0001-06</p>
+                        <button class="btn btn-copy" onclick="copyText()">Copiar</button>
+                    </div>
+
+
                 </div>
             </div>
         </div>
 
-       
+
 
     </main>
     <footer class="bg-primary text-white text-center text-lg-start">
@@ -200,7 +209,10 @@
       </div>
       <!--footer-->
     <!-- MDB -->
+
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="js/doacao.js"></script>
 </body>
 
 </html>
