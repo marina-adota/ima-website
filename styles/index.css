@@ -17,6 +17,7 @@
 
 body {
     height: 100vh;
+    overflow: hidden;
 }
 
 .margin-page {
