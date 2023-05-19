@@ -30,3 +30,16 @@ h1 {
     transform: translate(-50%, -50%);
     z-index: 9999;
 }
+
+.bounce-animation {
+    animation: bounce 1.8s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-25px);
+    }
+}
