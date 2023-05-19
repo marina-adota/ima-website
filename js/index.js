@@ -3,24 +3,23 @@ var titles = [
     "Adote, salve uma vida e ganhe um amigo fiel.", 
     "Com amor e cuidado, transformamos a vida de animais abandonados.", 
     "Nossa missão é proteger e cuidar dos animais, um de cada vez."
-]; // Lista de títulos para o slide
-var currentIndex = 0; // Índice do título atual
+];
+var currentIndex = 0;
 
 function changeTitle() {
     var titleElement = document.getElementById("title");
 
-    titleElement.style.opacity = 0; // Define a opacidade para 0 (tornando o título invisível)
+    titleElement.style.opacity = 0;
 
     setTimeout(function () {
-        titleElement.innerHTML = titles[currentIndex]; // Atualiza o conteúdo do título
+        titleElement.innerHTML = titles[currentIndex];
 
-        titleElement.style.opacity = 1; // Define a opacidade de volta para 1 (tornando o título visível)
+        titleElement.style.opacity = 1;
 
-        currentIndex = (currentIndex + 1) % titles.length; // Avança para o próximo título
+        currentIndex = (currentIndex + 1) % titles.length;
 
         setTimeout(changeTitle, 6000);
     }, 700);
 }
 
-// Inicia o slide do título
 changeTitle();

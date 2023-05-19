@@ -32,11 +32,11 @@ h1 {
     z-index: 9999;
 }
 
-/* TODO classe para lidar com as fotos dos animais no slide */
 .slide-animal {
     background-position: center center;
     background-size: cover;
-    width: 13rem; height: 18rem;
+    width: 13rem;
+    height: 18rem;
 }
 
 .bounce-animation {
@@ -45,13 +45,32 @@ h1 {
 
 .transition-title {
     transition: opacity 0.5s;
-  }
+}
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     25% {
         transform: translateY(-25px);
     }
+}
+
+.fade-bottom {
+    position: relative;
+    overflow: hidden;
+}
+
+.fade-bottom:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 6rem;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none;
 }
