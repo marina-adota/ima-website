@@ -8,3 +8,7 @@ h2{
     color:black;
     font-weight: bold;
 }
+
+.button-size{
+    font-size: larger;
+}
