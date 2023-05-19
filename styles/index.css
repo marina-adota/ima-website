@@ -31,6 +31,13 @@ h1 {
     z-index: 9999;
 }
 
+/* TODO classe para lidar com as fotos dos animais no slide */
+.slide-animal {
+    background-position: center center;
+    background-size: cover;
+    width: 13rem; height: 18rem;
+}
+
 .bounce-animation {
     animation: bounce 1.8s infinite;
 }
