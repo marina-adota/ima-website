@@ -24,6 +24,7 @@ body {
 }
 
 h1 {
+    font-size: 3rem;
     position: absolute;
     top: 35%;
     left: 50%;
@@ -41,6 +42,10 @@ h1 {
 .bounce-animation {
     animation: bounce 1.8s infinite;
 }
+
+.transition-title {
+    transition: opacity 0.5s;
+  }
 
 @keyframes bounce {
     0%, 100% {
