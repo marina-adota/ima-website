@@ -70,7 +70,7 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 6rem;
+    height: 4rem;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     pointer-events: none;
 }
