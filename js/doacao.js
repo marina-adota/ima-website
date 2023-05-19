@@ -12,7 +12,7 @@ function copyText() {
   // Pega o botão, troca as classes e seu texto
   var button = document.getElementById("btn-click-to-copy");
   button.classList.remove("btn-outline-primary");
-  button.classList.add("btn-secondary");
+  button.classList.add("btn-primary");
   button.classList.add("text-white");
   var oldText = button.innerHTML;
   var newText = "Copiado !";
@@ -20,7 +20,7 @@ function copyText() {
 
   // Troca as classes e texto do botão novamente, após 2000 millisegundos
   setTimeout(function () {
-    button.classList.remove("btn-secondary");
+    button.classList.remove("btn-primary");
     button.classList.remove("text-white");
     button.classList.add("btn-outline-primary");
     button.innerHTML = oldText;
