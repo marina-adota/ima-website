@@ -1,11 +1,14 @@
+function copiar() {
+  var copiado = document.getElementById("idtextToCopy").h6;
+  if (navigator.clipboard.writeText(copiado)) {
+    document.getElementById("idbotao").textContent = "Copiado";
+  }
 
-function copyText() {
-  var text = document.getElementById('text-to-copy');
-  var range = document.createRange();
-  range.selectNode(text);
-  window.getSelection().removeAllRanges();
-  window.getSelection().addRange(range);
-  document.execCommand('copy');
-  window.getSelection().removeAllRanges();
+  setInterval(function () {
+    document.getElementById("idbotao").textContent = "Copiar";
+  }, 2000
+  );
+
+  console.log(copiado);
 }
 
