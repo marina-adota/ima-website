@@ -1,0 +1,19 @@
+.quadrado {
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.quadrado-azul {
+    background-color: blue;
+    left: 50px;
+    top: 200px;
+}
+
+.quadrado-vermelho {
+    background-color: red;
+    left: 200px;
+    top: 50px;
+}
