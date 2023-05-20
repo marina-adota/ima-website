@@ -28,3 +28,10 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+h2{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
