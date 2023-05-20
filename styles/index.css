@@ -23,3 +23,8 @@ body {
 .margin-page {
     margin-left: 165px;
 }
+
+.bg-img {
+    background-size: cover;
+    background-position: center;
+}
