@@ -36,3 +36,8 @@ p{
     font-size: 25px;
 }
 
+/* TODO colocar fundo com imagens de cachorros e cinza transparente */
+.bg-section-4{
+opacity: 100%;
+background-color: rgb(182, 182, 182);
+}
