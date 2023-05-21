@@ -154,9 +154,9 @@
 
 
             <div style="height: 100vh;" class="bg-section-4 d-flex col-12">
-                <div style="height: 30vh;" class="text-center mx-auto my-auto margin-page col-3 side-by-side bg-danger">
-                    <p class="mt-5">
-                        boa tardefsdfsfsfsgsdgsgsd
+                <div style="height: 40vh;" class="text-center mx-auto my-auto margin-page col-2 side-by-side">
+                    <p class="text-start font-final mt-5">
+                        Adote amor, salve vidas.
 
                     </p>
                 </div>
@@ -166,56 +166,75 @@
                     </a>
                 </div>
                 <div style="height: 80vh;" class="d-flex mx-auto my-auto col-3 side-by-side">
-                    <div class="my-auto mx-auto card" style="width: 90%; height: 100%;">
+                    <div class="rounded-9 my-auto mx-auto card" style="width: 100%; height: 100%;">
                         <div class="card-body">
                             <form class="my-auto">
-                                <div class="text-center">
+                                <div style="height: 4rem;" class="text-center">
                                     <img style="height: 5rem;" src="./images/logo-so-imagem.svg" alt="">
                                 </div>
                                 <div>
-                                    <h3 class="text-center mb-5 ">
+                                    <h3 class="text-center mb-3 ">
                                         Entre em contato
                                     </h3>
                                 </div>
 
                                 <!-- Name input -->
-                                <div class="form-outline mb-4">
-                                    <input type="text" id="form4Example1" class="form-control" />
-                                    <label class="form-label" for="form4Example1">Nome * </label>
+                                <div class="mt-4 mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example1">Nome <span
+                                            class="text-danger">*</span></label>
+                                    <input style="height: 3rem;" type="text" id="form4Example1"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Nome" />
                                 </div>
 
                                 <!-- Email input -->
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="form4Example2" class="form-control" />
-                                    <label class="form-label" for="form4Example2">Email * </label>
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example2">E-mail <span
+                                            class="text-danger">*</span></label>
+                                    <input style="height: 3rem;" type="email" id="form4Example2"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="E-mail" />
                                 </div>
+
                                 <!-- Telefone input -->
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="form4Example2" class="form-control" />
-                                    <label class="form-label" for="form4Example2">Telefone * </label>
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example2">Telefone</label>
+                                    <input style="height: 3rem;" type="email" id="form4Example2"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Telefone" />
                                 </div>
+
                                 <!-- Assunto input -->
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="form4Example2" class="form-control" />
-                                    <label class="form-label" for="form4Example2">Assunto * </label>
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="col-12 lab-size ms-2 mb-0 form-label"
+                                        for="inlineFormSelectPref">Assunto
+                                        <span class="text-danger">*</span></label>
+                                    <select style="height: 3rem;" class="border border-3 rounded-7 col-12 select">
+                                        <option selected disabled>Selecione</option>
+                                        <option value="Doação de materiais">Doação de materiais</option>
+                                        <option value="Voluntário(a)">Voluntário(a)</option>
+                                        <option value="Pedido de informações">Pedido de informações</option>
+                                    </select>
                                 </div>
 
+                                <!-- FIXME não deve ser possível ajustar o tamanho -->
                                 <!-- Message input -->
-                                <div class="form-outline mb-4">
-                                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-                                    <label class="form-label" for="form4Example3">Mensagem * </label>
-                                </div>
+                                <div class="mb-0 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example3">Mensagem
+                                        <span class="text-danger">*</span></label>
+                                    <textarea class="textarea border border-3 rounded-7 form-control" cols="4"
+                                        id="form4Example3" rows="4" placeholder="Mensagem"></textarea>
 
-                                <!-- Checkbox -->
+                                </div>
 
                                 <!-- Submit button -->
-                                <button style="width: 10rem;" type="submit" class="mx-auto btn btn-secondary btn-block mb-4">
-                                    <p class="my-auto">Enviar</p>
-                                </button>
-                                <button style="width: 10rem;" type="submit" class="mx-auto btn btn-primary btn-block mb-4">
-                                    <p class="my-auto">Instagram</p>
-                                </button>
+                                <!-- TODO aumentar fonte sem aumentar o botao -->
+                                <div class="mb-1 mt-1 col-7 mx-auto">
+                                    <button type="submit"
+                                        class="rounded-9 text-black col-12 my-1 btn btn-secondary">Enviar</button>
+                                    <a href="#" class="rounded-9 text-black col-12 my-1 btn btn-primary">Instagram</a>
+                                </div>
                             </form>
+                            <!-- <div style="width: 28rem; height: 3rem;" class="bg-danger">
+                                oi
+                            </div> -->
                         </div>
                     </div>
 

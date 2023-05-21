@@ -29,16 +29,31 @@ body {
     background-position: center;
 }
 
-h2{
+h2 {
     font-size: 50px;
 }
-p{
+
+p {
     font-size: 16px;
     color: black;
 }
 
 /* TODO colocar fundo com imagens de cachorros e cinza transparente */
-.bg-section-4{
-opacity: 100%;
-background-color: rgb(182, 182, 182);
+.bg-section-4 {
+    opacity: 100%;
+    background-color: rgb(182, 182, 182);
+}
+
+.lab-size {
+    font-size: 13px;
+    color: black;
+}
+
+.textarea {
+    resize: none;
+}
+
+.font-final {
+    font-size: 60px;
+
 }
