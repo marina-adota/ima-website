@@ -1,9 +1,7 @@
 /* Style for index.html */
-.navbar.custom {
-    margin: 0 auto;
-    height: 50px;
+.nav-height{
+    height: 11vh;
 }
-
 .continous-flow {
     height: 100vh;
     overflow-y: scroll;
@@ -104,4 +102,13 @@ h1 {
 
 input, select {
     height: 2rem;
+}
+
+@media only screen and(max-width: 600px) {
+    .section{
+        height: auto;
+      
+
+    }
+    
 }
