@@ -44,3 +44,8 @@
 .insta-size{
     font-size: 30px;
 }
+
+.bg-img {
+    background-size: cover;
+    background-position: center center;
+}
