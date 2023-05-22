@@ -15,6 +15,8 @@
     <!-- Personal styles -->
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="stylesheet" href="./styles/global.css">
+
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" class="favicon">
     <title>Marina Adota</title>
 </head>
 
@@ -22,7 +24,7 @@
 <body>
     <main class="continous-flow">
 
-        <section class="section">
+        <section id="page-main" class="section">
 
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-none" style="height: 11vh;">
@@ -66,20 +68,20 @@
 
             <!-- Slide -->
             <div style="height: 83vh;" id="carouselExampleCaptions" class="mt-5carousel slide" data-mdb-ride="carousel">
-                
+
                 <!-- Title and animals -->
                 <div class="carousel-inner fade-bottom">
                     <div class="row position-relative" style="height: 83vh;">
 
                         <h1 id="title" class="col-7 transition-title text-center text-black font-weight-bold"></h1>
 
-                        <div class="slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative shadow"
                             style="left: -5rem; background-image: url(./images/dog_8.png);">
                         </div>
-                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative shadow"
                             style="left: -6rem; bottom: -3rem; background-image: url(./images/dog_1.png);">
                         </div>
-                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative shadow"
                             style="left: -7rem; bottom: -7rem; background-image: url(./images/dog_7.png);">
                         </div>
                         <div id="btn-center" class="position-absolute"
@@ -89,13 +91,13 @@
                                 <i class="fas fa-angle-down fa-xl"></i>
                             </a>
                         </div>
-                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative shadow"
                             style="right: -7rem; bottom: -7rem; background-image: url(./images/dog_6.png);">
                         </div>
-                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative shadow"
                             style="right: -6rem; bottom: -3rem; background-image: url(./images/dog_2.png);">
                         </div>
-                        <div class="slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative"
+                        <div class="slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative shadow"
                             style="right: -5rem; background-image: url(./images/dog_5.png);">
                         </div>
 
@@ -103,72 +105,136 @@
 
                 </div>
 
-                <!-- About us -->
-                <div style="height: 6vh; background-color: #000000;" class="text-center text-lg-start">
-                    <div class="bg-secondary  text-center p-3"
-                        style="height: 100%; background-color: rgba(0, 0, 0, 0.2);">
-                        <a class="text-dark" href="about-us">Sobre nós</a>
-                    </div>
+
+            </div>
+
+            <!-- About us -->
+            <div style="height: 6vh" class="text-center text-lg-start">
+                <div class="bg-secondary text-center p-3 my-auto"
+                    style="height: 100%; background-color: rgba(0, 0, 0, 0.2);">
+                    <a class="text-dark my-auto" href="#about-us"> Sobre nós <i class="ms-1 fas fa-angle-down"></i> </a>
                 </div>
             </div>
 
         </section>
 
-        <section id="about-us" class="section">
-            <div style="height: 100vh;" class="d-flex bg-secondary col-12">
-                <div style="height: 80vh;" class="mx-auto my-auto margin-page col-5 bg-primary">
-                    boa tarde
-                </div>
-                <div style="height: 80vh;" class="mx-auto my-auto col-5 bg-dark">
-                    <p class="text-center"> bom dia, galera</p>
-                </div>
+        <section id="about-us" class="bg-secondary section d-flex col-12">
+            
+            <!-- Images -->
+            <div style="height: 90%; background-image: url('./images/dogs_about-us.png');" class="bg-img mx-auto my-auto margin-page col-5"></div>
+
+            <!-- Text -->
+            <div style="height: 60vh;" class=" mx-auto my-auto col-5">
+                <h2 class="mt-5 mb-5 text-center text-black">Quem somos?</h2>
+                <p class="col-10 mx-auto text-center">Somos uma empresa apaixonada pelos animais, que há mais de dez
+                    anos, realiza
+                    ações em prol do bem-estar e dignidade dos cães que estão em situação de vulnerabilidade ou que
+                    são vítimas de maus-tratos.</p>
             </div>
         </section>
 
-        <section id="goals" class="section">
-            <div style="height: 100vh;" class="d-flex bg-secondary col-12">
-                <div style="height: 80vh;" class="mx-auto my-auto margin-page col-5 side-by-side bg-danger">
-                    boa tarde
-                </div>
-                <div style="height: 80vh;" class="mx-auto my-auto col-5 bg-danger side-by-side">
-                    <p class="text-center"> bom dia, galera</p>
-                </div>
+        <section id="goals" class="section bg-primary d-flex col-12">
+
+            <!-- Text -->
+            <div style="height: 60vh;" class="mx-auto my-auto col-5">
+                <h2 class="mt-5 mb-5 text-center text-black">Nossos objetivos</h2>
+                <p class="col-10 mx-auto text-center">Promover o bem-estar e restaurar a dignidade dos cachorros que
+                    estão em situação de rua ou que são vítimas de maus-tratos, assegurando-lhes, além de cuidados
+                    médicos, carinho, proteção afetiva e a possibilidade de ter um novo lar para morar.</p>
+            </div>
+
+            <!-- Images -->
+            <div style="height: 90%; background-image: url('./images/dogs_goals.png');" class="bg-img mx-auto my-auto margin-page col-6">
+
             </div>
         </section>
 
         <section style="height: 100vh;" id="contact-us" class="section">
-            <div style="height: 94vh;" class="d-flex col-12">
-                <div style="height: 70vh;" class="mx-auto my-auto margin-page col-7 side-by-side bg-dark">
-                    boa tarde
+
+
+            <div style="height: 95vh;" class="bg-section-4 d-flex col-12">
+
+                <!-- Left text -->
+                <div style="height: 40vh;" class="text-center mx-auto my-auto margin-page col-5 side-by-side">
+                    <p class="text-start text-white font-final mt-5 col-8 mx-auto">
+                        Adote amor,<br>salve vidas.
+
+                    </p>
                 </div>
-                <div style="height: 70vh;" class="d-flex bg-dark mx-auto my-auto col-3 side-by-side">
-                    <div class="my-auto mx-auto card" style="width: 80%; height: 80%;">
+
+                <!-- Button -->
+                <div style="height: 75%" class="my-auto col-2 d-flex">
+                    <a class="mx-auto btn bg-secondary text-black btn-lg btn-floating" href="#page-main" role="button">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <!-- Form -->
+                <div style="height: 95%;" class="d-flex mx-auto my-auto col-5">
+                    <div class="col-9 rounded-9 my-auto mx-auto card shadow" style="height: 100%;">
                         <div class="card-body">
-                            <form class="my-auto">
+                            <form class="d-flex flex-column">
+                                <div style="height: 4rem;" class="text-center">
+                                    <img style="height: 5rem;" src="./images/logo-so-imagem.svg" alt="">
+                                </div>
+                                <div>
+                                    <h3 class="text-center mb-3 ">
+                                        Entre em contato
+                                    </h3>
+                                </div>
 
                                 <!-- Name input -->
-                                <div class="form-outline mb-4">
-                                    <input type="text" id="form4Example1" class="form-control" />
-                                    <label class="form-label" for="form4Example1">Name</label>
+                                <div class="mt-4 mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example1">Nome <span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" id="form4Example1"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Nome" required/>
                                 </div>
 
                                 <!-- Email input -->
-                                <div class="form-outline mb-4">
-                                    <input type="email" id="form4Example2" class="form-control" />
-                                    <label class="form-label" for="form4Example2">Email address</label>
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example2">E-mail <span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" id="form4Example2"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="E-mail" required/>
+                                </div>
+
+                                <!-- Telefone input -->
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example2">Telefone</label>
+                                    <input type="email" id="form4Example2"
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Telefone" />
+                                </div>
+
+                                <!-- Assunto input -->
+                                <div class="mb-1 col-7 mx-auto">
+                                    <label class="col-12 lab-size ms-2 mb-0 form-label"
+                                        for="inlineFormSelectPref">Assunto
+                                        <span class="text-danger">*</span></label>
+                                    <select class="border border-3 rounded-7 col-12 select" required>
+                                        <option selected disabled>Selecione</option>
+                                        <option value="Doação de materiais">Doação de materiais</option>
+                                        <option value="Voluntário(a)">Voluntário(a)</option>
+                                        <option value="Pedido de informações">Pedido de informações</option>
+                                    </select>
                                 </div>
 
                                 <!-- Message input -->
-                                <div class="form-outline mb-4">
-                                    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
-                                    <label class="form-label" for="form4Example3">Message</label>
+                                <div class="col-7 mx-auto">
+                                    <label class="lab-size ms-2 mb-0 form-label" for="form4Example3">Mensagem
+                                        <span class="text-danger">*</span></label>
+                                    <textarea class="textarea border border-3 rounded-7 form-control" cols="4"
+                                        id="form4Example3" rows="3" placeholder="Mensagem" required></textarea>
+
                                 </div>
 
-                                <!-- Checkbox -->
-
                                 <!-- Submit button -->
-                                <button type="submit" class="btn btn-primary btn-block mb-4">Send</button>
-
+                                <div class="mt-3 col-7 mx-auto">
+                                    <button type="submit"
+                                        class="rounded-9 text-black col-12 my-1 btn btn-secondary">Enviar</button>
+                                    <a href="https://instagram.com/marina.adota"
+                                        class="rounded-9 text-black col-12 my-1 btn btn-primary">Instagram</a>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -177,20 +243,19 @@
 
             </div>
 
+            <!-- footer-->
+            <div class="text-center bg-white p-3 d-flex" style="height: 5vh;">
+                <p class="text-black mx-auto my-auto"
+                    style=" font-size: small; height: 4%; display:flex; align-items: center; justify-content: center;"
+                    href="https://mdbootstrap.com/">Instituto Marina Adota © 2023</p>
+            </div>
+            <!--footer -->
         </section>
 
-
-
-
-
     </main>
-    <!--footer-->
-    <div class="text-center p-3" style="background-color: rgba(50, 50, 50, 0.2); height: 2rem;">
-        <a class="text-dark"
-            style=" font-size: 90%; height: 4%; display:flex; align-items: center; justify-content: center;"
-            href="https://mdbootstrap.com/">Instituto Marina Adota © 2023</a>
-    </div>
-    <!--footer-->
+
+
+
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
     <script src="./js/index.js"></script>
