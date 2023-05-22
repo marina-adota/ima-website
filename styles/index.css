@@ -26,7 +26,7 @@ body {
 
 .bg-img {
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 h2 {
@@ -107,4 +107,8 @@ h1 {
     height: 4rem;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
     pointer-events: none;
+}
+
+input, select {
+    height: 2rem;
 }
