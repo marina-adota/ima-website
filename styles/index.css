@@ -1,7 +1,4 @@
 /* Style for index.html */
-.nav-height{
-    height: 11vh;
-}
 .continous-flow {
     height: 100vh;
     overflow-y: scroll;
@@ -104,11 +101,29 @@ input, select {
     height: 2rem;
 }
 
-@media only screen and(max-width: 600px) {
-    .section{
-        height: auto;
-      
+.carousel-height {
+    height: 83vh;
+    /* margin-top: 5vh; */
 
+}
+/* .about-us-size{
+    height: 6vh;
+} */
+
+
+@media only screen and(max-width: 600px) {
+    .section {
+        height: auto;
     }
-    
+
+    .carousel-height{
+        height: auto;
+        margin-top: 10vh;
+        
+    }
+
+    /* .about-us-size{
+        height: 6vh;
+    } */
+
 }
