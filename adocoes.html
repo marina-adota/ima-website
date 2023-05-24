@@ -24,44 +24,48 @@
 <body style="height: 100vh">
 
     <!-- Navbar -->
-     <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-none">
-                <!-- Navbar brand -->
-                <a class="navbar-brand ms-2 me-auto" href="./index.html">
-                    <img src="./images/logo.svg" alt="Logo" loading="lazy" class="logo"/>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-none">
+        <!-- Navbar brand -->
+        <a class="navbar-brand ms-2 me-auto" href="./index.html">
+            <img src="./images/logo.svg" alt="Logo" loading="lazy" class="logo" />
+        </a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
+            aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-xl"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="dropdown collapse navbar-collapse" id="navbarButtonsExample">
+            <!-- Left links -->
+
+            <div id="nav-size" class="bg-white col-md-4 d-flex flex-column flex-sm-row ms-auto text-capitalize">
+                <a type="button" href="./como-ajudar.html"
+                    class="col-12 col-md-3 nav-text-size text-black nav-link bt-size ">
+                    como ajudar?
+                </a>
+                <a type="button" href="./adocoes.html"
+                    class="col-12 col-md-2 nav-text-size text-black nav-link bt-size ">
+                    Adoções
+                </a>
+                <a type="button" href="./doacao.html"
+                    class="col-12 col-md-2 nav-text-size text-black nav-link bt-size ">
+                    Doações
                 </a>
 
-                <!-- Toggle button -->
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars fa-xl"></i>
-                </button>
+                <!-- FIXME -->
+                <hr class="mx-auto d-block d-sm-none border border-4 black-hr" style="width: 90%;">
 
-                <!-- Collapsible wrapper -->
-                <div class="dropdown collapse navbar-collapse" id="navbarButtonsExample">
-                    <!-- Left links -->
 
-                    <div class="bg-danger col-md-4 d-flex flex-column flex-sm-row ms-auto text-capitalize">
-                        <a type="button" href="./como-ajudar.html"
-                            class="col-2 col-md-3 nav-text-size text-black nav-link px-3 me-2 my-auto">
-                            como ajudar?
-                        </a>
-                        <a type="button" href="./adocoes.html"
-                            class="col-2 col-md-2 nav-text-size text-black nav-link px-3 me-2 my-auto">
-                            Adoções
-                        </a>
-                        <a type="button" href="./doacao.html"
-                            class="col-2 col-md-2 nav-text-size text-black nav-link px-3 me-2 my-auto">
-                            Doações
-                        </a>
-                        <a type="button" class="col-3 col-md-3 btn btn-primary btn-rounded nav-text-size text-dark me-3"
-                            href="https://www.instagram.com/marina.adota/">
-                            Instagram
-                        </a>
-                    </div>
-                </div>
-                <!-- Collapsible wrapper -->
-            </nav>
+                <a type="button" class="bt-format col-12 col-md-3 btn btn-primary nav-text-size text-dark bt-size"
+                    href="https://www.instagram.com/marina.adota/">
+                    Instagram
+                </a>
+            </div>
+        </div>
+        <!-- Collapsible wrapper -->
+    </nav>
 
 
     <!-- main -->

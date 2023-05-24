@@ -30,7 +30,7 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-none">
                 <!-- Navbar brand -->
                 <a class="navbar-brand ms-2 me-auto" href="./index.html">
-                    <img src="./images/logo.svg" alt="Logo" loading="lazy" class="logo"/>
+                    <img src="./images/logo.svg" alt="Logo" loading="lazy" class="logo" />
                 </a>
 
                 <!-- Toggle button -->
@@ -44,7 +44,7 @@
                 <div class="dropdown collapse navbar-collapse" id="navbarButtonsExample">
                     <!-- Left links -->
 
-                    <div id="nav-size" class="bg-danger col-md-4 d-flex flex-column flex-sm-row ms-auto text-capitalize">
+                    <div id="nav-size" class="bg-white col-md-4 d-flex flex-column flex-sm-row ms-auto text-capitalize">
                         <a type="button" href="./como-ajudar.html"
                             class="col-12 col-md-3 nav-text-size text-black nav-link bt-size ">
                             como ajudar?
@@ -57,7 +57,13 @@
                             class="col-12 col-md-2 nav-text-size text-black nav-link bt-size ">
                             Doações
                         </a>
-                        <a type="button" class="bt-format col-12 col-md-3 btn btn-primary nav-text-size text-dark bt-size"
+
+                        <!-- FIXME -->
+                        <hr class="mx-auto d-block d-sm-none border border-4 black-hr" style="width: 90%;">
+
+
+                        <a type="button"
+                            class="bt-format col-12 col-md-3 btn btn-primary nav-text-size text-dark bt-size"
                             href="https://www.instagram.com/marina.adota/">
                             Instagram
                         </a>
@@ -67,7 +73,47 @@
             </nav>
 
             <!-- Slide -->
-            
+            <div id="carouselExampleCaptions" class="carousel-height carousel slide" data-mdb-ride="carousel">
+
+                <!-- Title and animals -->
+                <div class="carousel-inner fade-bottom">
+                    <div class="carousel-height row position-relative">
+
+                        <h1 id="title" class="col-7 transition-title text-center text-black font-weight-bold"></h1>
+
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative"
+                            style="left: -5rem; background-image: url(./images/dog_8.jpeg);">
+                        </div>
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                            style="left: -6rem; bottom: -3rem; background-image: url(./images/dog_1.jpeg);">
+                        </div>
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                            style="left: -7rem; bottom: -7rem; background-image: url(./images/dog_7.jpeg);">
+                        </div>
+                        <div id="btn-center" class="position-absolute"
+                            style="left: 0; right: 0; bottom: 2rem; margin-left: auto; margin-right: auto; text-align: center;">
+                            <a class="btn text-black btn-lg btn-floating bg-secondary bounce-animation" href="#about-us"
+                                role="button">
+                                <i class="fas fa-angle-down fa-xl"></i>
+                            </a>
+                        </div>
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                            style="right: -7rem; bottom: -7rem; background-image: url(./images/dog_6.jpeg);">
+                        </div>
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-0 mx-auto position-relative"
+                            style="right: -6rem; bottom: -3rem; background-image: url(./images/dog_2.jpeg);">
+                        </div>
+                        <div class="bg-img slide-animal rounded-9 mt-auto mb-5 mx-auto position-relative"
+                            style="right: -5rem; background-image: url(./images/dog_5.jpeg);">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
 
             <!-- About us -->
             <div class="about-us-size text-center text-lg-start">
@@ -80,9 +126,10 @@
         </section>
 
         <section id="about-us" class="bg-secondary section d-flex col-12">
-            
+
             <!-- Images -->
-            <div style="height: 90%; background-image: url('./images/dogs_about-us.png');" class="bg-img mx-auto my-auto margin-page col-5"></div>
+            <div style="height: 90%; background-image: url('./images/dogs_about-us.png');"
+                class="bg-img mx-auto my-auto margin-page col-5"></div>
 
             <!-- Text -->
             <div style="height: 60vh;" class=" mx-auto my-auto col-5">
@@ -105,7 +152,8 @@
             </div>
 
             <!-- Images -->
-            <div style="height: 90%; background-image: url('./images/dogs_goals.png');" class="bg-img mx-auto my-auto margin-page col-6">
+            <div style="height: 90%; background-image: url('./images/dogs_goals.png');"
+                class="bg-img mx-auto my-auto margin-page col-6">
 
             </div>
         </section>
@@ -149,7 +197,8 @@
                                     <label class="lab-size ms-2 mb-0 form-label" for="form4Example1">Nome <span
                                             class="text-danger">*</span></label>
                                     <input type="text" id="form4Example1"
-                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Nome" required/>
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="Nome"
+                                        required />
                                 </div>
 
                                 <!-- Email input -->
@@ -157,7 +206,8 @@
                                     <label class="lab-size ms-2 mb-0 form-label" for="form4Example2">E-mail <span
                                             class="text-danger">*</span></label>
                                     <input type="email" id="form4Example2"
-                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="E-mail" required/>
+                                        class="border border-3 mx-auto rounded-7 form-control" placeholder="E-mail"
+                                        required />
                                 </div>
 
                                 <!-- Telefone input -->

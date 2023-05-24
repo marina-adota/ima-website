@@ -77,6 +77,14 @@
     height: 5vh;
 }
 
+/* FIXEME */
+.black-hr {
+    border-color: black;
+    background-color: black;
+}
+
+
+
 @media (max-width: 600px) {
     .navbar {
         height: 9vh;
@@ -108,5 +116,7 @@
         margin-right: auto;
         margin-top: 4rem;
     }
+
+
 
 }
