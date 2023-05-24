@@ -111,7 +111,7 @@ input, select {
 } */
 
 
-@media only screen and(max-width: 600px) {
+@media screen and(max-width: 600px) {
     .section {
         height: auto;
     }
