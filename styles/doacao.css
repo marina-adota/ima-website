@@ -1,0 +1,20 @@
+.height-main {
+    height: 89vh;
+}
+
+@media (max-width: 600px) {
+
+    .height-main {
+        height: 100vh;
+    }
+
+    .revert {
+        flex-direction: row-reverse;
+    }
+
+    .height-text {
+        height: 11vh;
+
+    }
+
+}
