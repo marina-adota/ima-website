@@ -54,7 +54,12 @@
 }
 
 .insta-size {
-    font-size: 30px;
+    font-size: 17px;
+    margin-right: 20px;
+    height: 42px;
+    width: 118px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .bg-img {
@@ -63,7 +68,8 @@
 }
 
 .bt-size {
-    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
 
@@ -74,7 +80,8 @@
 }
 
 #nav-size {
-    height: 5vh;
+    height: 7vh;
+    width: 51vh;
 }
 
 /* FIXEME */
