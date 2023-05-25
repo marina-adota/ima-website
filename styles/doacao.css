@@ -1,6 +1,12 @@
 .height-main {
     height: 89vh;
 }
+#text{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media (max-width: 600px) {
 
@@ -12,9 +18,18 @@
         flex-direction: row-reverse;
     }
 
-    .height-text {
+    .size-text {
         height: 11vh;
+        font-size: 3rem;
+        text-align: center;
+      
+    }
 
+    #text{
+        height: 7rem;
+        width: 23rem;
+        margin-top: 4rem;
+       
     }
 
 }
