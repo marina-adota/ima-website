@@ -11,4 +11,5 @@ h2{
 
 .button-size{
     font-size: larger;
+    border-radius: 50px;
 }
