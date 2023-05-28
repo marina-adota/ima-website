@@ -28,9 +28,9 @@
 .sect {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15vh;
+    margin-top: 8vh;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
 }
 
 .desp-help {
@@ -54,7 +54,7 @@
 
     .size-text {
         height: 11vh;
-        font-size: 3rem;
+        font-size: 45px;
         text-align: center;
 
     }
