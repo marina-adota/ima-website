@@ -23,40 +23,46 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-sm" style="height: 11vh;">
-        <!-- Container wrapper -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
         <!-- Navbar brand -->
-        <a class="navbar-brand ms-2 me-auto" href="./index.html">
-            <img src="./images/logo.svg" alt="Logo" loading="lazy" style="margin-top: -1px; height: 9vh;" />
+        <a class="navbar-brand ms-2 me-auto my-auto" href="./index.html">
+            <img id="logo" src="./images/logo.svg" alt="Logo" loading="lazy"/>
         </a>
 
         <!-- Toggle button -->
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarButtonsExample"
-            aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+        <button class="navbar-toggler my-auto" type="button" data-mdb-toggle="collapse"
+            data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-xl"></i>
         </button>
 
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
+        <div class="collapse navbar-collapse bg-white" id="navbarButtonsExample">
             <!-- Left links -->
 
-            <div class="d-flex ms-auto text-capitalize">
-                <a type="button" href="./como-ajudar.html" class="nav-text-size text-black nav-link px-3 me-2 my-auto">
+            <div class="d-flex flex-column flex-sm-row ms-auto text-capitalize">
+                <a type="button" href="./como-ajudar.html"
+                    class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
                     como ajudar?
                 </a>
-                <a type="button" href="./adocoes.html" class="nav-text-size text-black nav-link px-3 me-2 my-auto">
+                <a type="button" href="./adocoes.html"
+                    class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
                     Adoções
                 </a>
-                <a type="button" href="./doacao.html" class="nav-text-size text-black nav-link px-3 me-2 my-auto">
+                <a type="button" href="./doacao.html"
+                    class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
                     Doações
                 </a>
-                <a type="button" style="font-size: medium;" class="btn btn-primary btn-rounded me-3 text-dark"
+
+                <hr class="hr d-block d-sm-none bg-dark mx-auto mt-3 mb-5" style="height: 0.3rem; width: 90%;">
+
+                <a id="nav-btn-instagram" type="button" class="nav-text-size shadow-none btn btn-primary btn-rounded text-dark mx-auto me-sm-3"
                     href="https://www.instagram.com/marina.adota/">
                     Instagram
                 </a>
             </div>
-            <!-- Collapsible wrapper -->
         </div>
+        <!-- Collapsible wrapper -->
     </nav>
 
     <section>
