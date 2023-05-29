@@ -1,4 +1,8 @@
 /* Style for all HTML files */
+nav {
+    height: 11vh;
+}
+
 .nav-text-size {
     font-size: medium;
 }
@@ -48,4 +52,30 @@
 .bg-img {
     background-size: cover;
     background-position: center center;
+}
+
+#logo {
+    height: 9vh;
+}
+
+@media (max-width: 600px) {
+    #navbarButtonsExample { 
+        height: 82;
+    }
+
+    nav {
+        height: 8vh;
+    }
+
+    #logo {
+        height: 7vh;
+    }
+
+    .nav-text-size {
+        font-size: larger;
+    }
+
+    #nav-btn-instagram {
+        width: 75%;
+    }
 }
