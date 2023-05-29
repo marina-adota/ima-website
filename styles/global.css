@@ -60,7 +60,7 @@ nav {
 
 @media (max-width: 600px) {
     #navbarButtonsExample { 
-        height: 82;
+        height: 81vh;
     }
 
     nav {
