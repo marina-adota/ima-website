@@ -12,3 +12,19 @@ h2{
 .button-size{
     font-size: larger;
 }
+
+section {
+    height: 89vh;
+    padding-left: 11rem; padding-right: 11rem;
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: x-large;
+    }
+
+    section {
+        height: auto;
+        padding: 0;
+    }
+}
