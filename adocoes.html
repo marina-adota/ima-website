@@ -16,13 +16,9 @@
 
     <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" class="favicon">
     <title>Marina Adota</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body style="height: 100vh">
+<body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent shadow-none" style="height: 11vh;">
@@ -67,47 +63,77 @@
 
 
     <!-- main -->
-    <main style="height: 89vh; background-color: #f3f3f3;" class="row col-12">
+    <main class="d-flex col-12" style="width: 100vw;">
 
         <!-- Text -->
-        <div id="text" class="col-6 mx-auto d-flex flex-column pt-5" style="height: 100%; ">
-            <h2 class="col-7 text-start mx-auto mt-auto text-black" style="font-size: 2.7rem;">Gostou de algum pet <br>
-                e quer
+        <div id="text" class="col-12 col-sm-6 mx-auto d-flex flex-column pt-sm-5">
+            <h2 class="col-11 col-sm-7 text-start mx-auto mt-5 mt-sm-auto text-black">Gostou de algum pet <br> e quer
                 adotar?</h2>
-            <h6 class="mx-auto mt-5 col-7" style="font-size: 110%;">É bem simples</h6>
-            <ol class="mx-auto text-start mt-2 col-7 mb-auto">
-                <li>
+            <h6 class="mx-auto mt-5 col-11 col-sm-7" style="font-size: 110%;">É bem simples</h6>
+            <ol class="mx-auto text-start mt-2 col-11 col-sm-7 mb-5 mb-sm-auto">
+                <li class="my-2">
                     Veja os animais disponíveis no nosso <br> Instagram.
                 </li>
-                <li>
+                <li class="my-2">
                     Mande uma mensagem informando qual <br> pet você tem interesse.
                 </li>
-                <li>
+                <li class="my-2">
                     Mande seu Whatsapp e entraremos <br> em contato.
                 </li>
             </ol>
-            <div class="col-7 text-start mb-auto mx-auto d-flex">
-                <a type="button" class="btn btn-primary text-black rounded-9 col-7 my-auto"
+            <div class="col-9 col-sm-7 text-start mb-auto mx-auto d-flex">
+                <a type="button" class="btn btn-primary text-black rounded-9 col-12 col-sm-7 my-auto"
                     href="https://www.instagram.com/marina.adota/" style="height: 3rem; font-size: larger;">Instagram <i
                         class="ms-2 fa-md fas fa-arrow-right-long"></i></a>
             </div>
+
+
+            <!-- Pictures -->
+            <div class="mt-5 mx-auto d-flex flex-column d-sm-none col-12">
+                <div class="row d-flex col-12 mx-auto my-auto">
+
+                    <div class="bg-img rounded-7 shadow-sm mx-auto my-2 col-5"
+                        style="background-image: url(/images/20230218-Ceceu4.jpg); height: 8rem;">
+                    </div>
+                    <div class="bg-img rounded-7 shadow-sm mx-auto my-2 col-5"
+                        style="background-image: url(./images/20220109-Sapatinho4\ \(1\).jpg); height: 8rem;">
+                    </div>
+
+                </div>
+                <div class="row d-flex col-12 mx-auto my-auto">
+
+                    <div class="bg-img rounded-7 shadow-sm mx-auto my-2 col-5"
+                        style="background-image: url(./images/20230218-Molly5.jpg); height: 8rem;">
+                    </div>
+                    <div class="bg-img rounded-7 shadow-sm mx-auto my-2 col-5"
+                        style="background-image: url(./images/20230218-Molly3.jpg); height: 8rem;">
+                    </div>
+
+                </div>
+            </div>
+
+            <p style="font-size: small;" class="mt-5 mt-sm-auto ms-3 me-auto">* Por enquanto a lista de animais disponíveis está
+                no Instagram.</p>
+
         </div>
+
+        <!-- TODO ver se vale a pena fazer moldura com 4 animais apenas para dispositivos moveis  -->
 
         <!-- Images -->
         <div style="height: 100%; background-image: url(./images/background_grey.jpg);"
-            class="bg-img position-relative col-6 bg-darkpy-5">
+            class="d-none d-sm-block bg-img position-relative col-6 bg-darkpy-5">
 
-            <div class="bg-img position-absolute rounded-4 shadow"
-                style="background-image: url(./images/20230218-Ceceu4.jpg); right: 2rem; top: 2rem; width: 10rem; height: 10rem;">
+            <div class="d-none d-sm-block bg-img position-absolute rounded-7 shadow"
+                style="background-image: url(./images/20230218-Ceceu4.jpg); right: 6rem; top: 8rem; width: 10rem; height: 10rem;">
             </div>
-            <div class="bg-img position-absolute rounded-4 shadow"
-                style="background-image: url(./images/20220109-Sapatinho4\ \(1\).jpg); right: 0rem; bottom: 0rem; width: 20rem; height: 18rem;">
+            <div class="d-none d-sm-block bg-img position-absolute rounded-7 shadow"
+                style="background-image: url(./images/20220109-Sapatinho4\ \(1\).jpg); right: 1rem; bottom: 1rem; width: 20rem; height: 18rem;">
             </div>
-            <div class="bg-img position-absolute rounded-4 shadow"
-                style="background-image: url(./images/20230218-Molly5.jpg); background-position: top; top: 10rem; width: 27rem; height: 15rem;">
+            <div class="d-none d-sm-block bg-img position-absolute rounded-7 shadow"
+                style="background-image: url(./images/20230218-Molly5.jpg); background-position: top; top: 7rem; width: 27rem; height: 15rem;">
             </div>
-            <div class="bg-img position-absolute rounded-4 shadow"
-                style="background-image: url(./images/20230218-Molly3.jpg); left: 5rem; bottom: 0rem; width: 10rem; height: 10rem;">
+            <div class="d-none d-sm-block bg-img position-absolute rounded-7 shadow"
+                style="background-image: url(./images/20230218-Molly3.jpg); left: 13rem; bottom: 5rem; width: 10rem; height: 10rem;">
             </div>
 
         </div>

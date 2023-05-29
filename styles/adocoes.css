@@ -1,0 +1,27 @@
+main {
+    height: 89vh; 
+    background-color: #f3f3f3;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.7rem;
+}
+
+#text {
+    height: 100%;
+}
+
+@media (max-width: 600px) {
+    main {
+        height: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    #text {
+        height: auto;
+    }
+}
