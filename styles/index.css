@@ -157,4 +157,9 @@ select {
     #lastMessage {
         font-size: x-large;
     }
+
+    .navbar-collapse-container {
+        z-index: 1000;
+      }
+      
 }
