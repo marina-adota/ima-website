@@ -78,15 +78,4 @@ nav {
     #nav-btn-instagram {
         width: 75%;
     }
-    h2 {
-        font-size: x-large;
-    }
-
-    section {
-        height: auto;
-        padding: 0;
-    }
-    footer h6, li {
-        text-align: left;
-    }
 }
