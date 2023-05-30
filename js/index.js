@@ -7,6 +7,7 @@ var titles = [
   "Nossa missão é proteger e cuidar dos animais, um de cada vez"
 ];
 var currentIndex = 0;
+var transitionInterval = 6000; // Intervalo de tempo desejado entre as transições (em milissegundos)
 
 function changeTitle(elementIds) {
   elementIds.forEach(function (elementId) {
@@ -20,12 +21,13 @@ function changeTitle(elementIds) {
       titleElement.style.opacity = 1;
 
       currentIndex = (currentIndex + 1) % titles.length;
-
-      setTimeout(function () {
-        changeTitle(elementIds);
-      }, 6000);
     }, 700);
   });
+
+  setTimeout(function () {
+    changeTitle(elementIds);
+  }, transitionInterval);
 }
 
 changeTitle(["title", "lastMessage"]);
+
