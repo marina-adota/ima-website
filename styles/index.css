@@ -10,7 +10,7 @@
     scroll-snap-type: y mandatory;
 }
 
-.section {
+.section, .big-section {
     height: 100vh;
     scroll-snap-align: start;
 }
@@ -18,10 +18,6 @@
 body {
     height: 100vh;
     overflow: hidden;
-}
-
-.margin-page {
-    margin-left: 165px;
 }
 
 h2 {
@@ -116,4 +112,54 @@ h1 {
 input,
 select {
     height: 2rem;
+}
+
+.section-text { 
+    height: 60vh;
+}
+
+.small-section div{
+    height: 90%;
+}
+
+.small-section .bg-img {
+    height: 90%;
+}
+
+@media (max-width: 600px) {
+
+    .big-section {
+        height: auto;
+        scroll-snap-align: none;
+    }
+
+    .small-section {
+        height: 100vh;
+        scroll-snap-align: start;
+    }
+
+    .small-section .bg-img {
+        height: 50%;
+    }
+
+    .small-section h2 {
+        font-size: 2.7rem;
+    }
+    
+    .small-section p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption h5, p{
+        font-size: small;
+    }
+
+    #lastMessage {
+        font-size: x-large;
+    }
+
+    .navbar-collapse-container {
+        z-index: 1000;
+      }
+      
 }
