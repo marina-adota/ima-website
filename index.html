@@ -13,15 +13,286 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
 
     <!-- Personal styles -->
-    <link rel="stylesheet" href="/styles/index.css">
-    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/global.css">
+
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" class="favicon">
     <title>Marina Adota</title>
 </head>
 
+
 <body>
+    <main class="continous-flow">
+
+        <section id="page-main" class="section">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-none">
+                <!-- Navbar brand -->
+                <a class="navbar-brand ms-2 me-auto my-auto" href="./index.html">
+                    <img id="logo" src="./images/logo.svg" alt="Logo" loading="lazy" />
+                </a>
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler my-auto" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars fa-xl"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse bg-white navbar-collapse-container" id="navbarButtonsExample">
+                    <!-- Left links -->
+
+                    <div class="d-flex flex-column flex-sm-row ms-auto text-capitalize">
+                        <a type="button" href="./como-ajudar.html"
+                            class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
+                            como ajudar?
+                        </a>
+                        <a type="button" href="./adocoes.html"
+                            class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
+                            Adoções
+                        </a>
+                        <a type="button" href="./doacao.html"
+                            class="nav-text-size text-black nav-link px-3 me-2 my-2 my-sm-auto">
+                            Doações
+                        </a>
+
+                        <hr class="hr d-block d-sm-none bg-dark mx-auto mt-3 mb-5" style="height: 0.3rem; width: 90%;">
+
+                        <a id="nav-btn-instagram" type="button"
+                            class="nav-text-size shadow-none btn btn-primary btn-rounded text-dark mx-auto me-sm-3"
+                            href="https://www.instagram.com/marina.adota/">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                <!-- Collapsible wrapper -->
+            </nav>
+
+            <!-- Slide Desktop -->
+            <div style="height: 83vh;" id="carouselExampleCaptions" class="d-none d-sm-block slide"
+                data-mdb-ride="carousel">
+
+                <!-- Title and animals -->
+                <div class="carousel-inner fade-bottom">
+                    <div class="row position-relative" style="height: 83vh;">
+
+                        <h1 id="title" class="col-7 transition-title text-center text-black font-weight-bold"></h1>
+
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-5 mx-auto position-relative"
+                            style="left: -5rem; background-image: url(./images/dog_8.jpeg);">
+                        </div>
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-0 mx-auto position-relative"
+                            style="left: -6rem; bottom: -3rem; background-image: url(./images/dog_1.jpeg);">
+                        </div>
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-0 mx-auto position-relative"
+                            style="left: -7rem; bottom: -7rem; background-image: url(./images/dog_7.jpeg);">
+                        </div>
+                        <div id="btn-center" class="position-absolute"
+                            style="left: 0; right: 0; bottom: 2rem; margin-left: auto; margin-right: auto; text-align: center;">
+                            <a class="btn text-black btn-lg btn-floating bg-secondary bounce-animation" href="#about-us"
+                                role="button">
+                                <i class="fas fa-angle-down fa-xl"></i>
+                            </a>
+                        </div>
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-0 mx-auto position-relative"
+                            style="right: -7rem; bottom: -7rem; background-image: url(./images/dog_6.jpeg);">
+                        </div>
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-0 mx-auto position-relative"
+                            style="right: -6rem; bottom: -3rem; background-image: url(./images/dog_2.jpeg);">
+                        </div>
+                        <div class="bg-img card-animal rounded-7 mt-auto mb-5 mx-auto position-relative"
+                            style="right: -5rem; background-image: url(./images/dog_5.jpeg);">
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Slide Mobile -->
+            <div style="height: 85vh;" class="d-block d-sm-none">
+                <!-- Carousel wrapper -->
+                <div id="carouselBasicExample" class="carousel carousel-dark slide carousel-fade" data-mdb-ride="carousel">
+                    <!-- Indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="5"
+                            aria-label="Slide 6"></button>
+                    </div>
+
+                    <!-- Inner -->
+                    <div class="carousel-inner" style="height: 100%;">
+                        <!-- Single item -->
+                        <div class="carousel-item active">
+                            <div class="bg-img d-block w-100"></div>
+                            <img src="./images/dog_1.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Sunset Over the City" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Adoção de cachorros em Salvador</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="./images/dog_2.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Canyon at Nigh" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Adote amor, salve vidas</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="./images/dog_6.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Cliff Above a Stormy Sea" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Cada animal tem uma história,<br>ajude a escrever um final feliz</p>
+                            </div>
+                        </div>
+
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="./images/dog_5.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Cliff Above a Stormy Sea" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Adote, salve uma vida e ganhe um amigo fiel</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="./images/dog_7.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Cliff Above a Stormy Sea" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Com amor e cuidado, transformamos a vida de animais abandonados</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Single item -->
+                        <div class="carousel-item">
+                            <img src="./images/dog_8.jpeg" style="height: 85vh;" class="d-block w-100"
+                                alt="Cliff Above a Stormy Sea" />
+                            <div class="carousel-caption ">
+                                <p style="font-size: medium;">Nossa missão é proteger e cuidar dos animais, um de cada vez</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Inner -->
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Carousel wrapper -->
+            </div>
+
+            <!-- About us -->
+            <div class="bg-secondary d-flex" style="height: 6vh; background-color: rgba(0, 0, 0, 0.2);">
+                <a class="text-dark mx-auto my-auto" href="#about-us"> Sobre nós <i class="ms-1 fas fa-angle-down"></i>
+                </a>
+            </div>
+
+        </section>
+
+        <section id="about-us" class="big-section d-flex flex-column-reverse flex-sm-row col-12">
+
+            <!-- Images -->
+            <div class="small-section bg-secondary col-12 col-sm-6 d-flex">
+                <div style="background-image: url('./images/dogs_about-us.png');"
+                    class="bg-img mx-auto my-auto col-12 col-sm-10"></div>
+            </div>
+            <!-- Text -->
+            <div class="small-section section-text d-flex flex-column mx-auto my-auto col-12 col-sm-6">
+                <h2 class="mt-5 mb-5 text-center text-black mt-auto">Quem somos?</h2>
+                <p class="col-10 mx-auto text-start mb-auto">Somos uma empresa apaixonada pelos animais, que há mais de dez
+                    anos, realiza
+                    ações em prol do bem-estar e dignidade dos cães que estão em situação de vulnerabilidade ou que
+                    são vítimas de maus-tratos.</p>
+            </div>
+        </section>
+
+        <section id="goals" class="big-section d-flex flex-column flex-sm-row col-12">
+
+            <!-- Text -->
+            <div class="small-section d-flex flex-column mx-auto my-auto col-12 col-sm-6">
+                <h2 class="mt-5 mb-5 text-center text-black mt-auto">Nossos objetivos</h2>
+                <p class="col-10 mx-auto text-start mb-auto">Promover o bem-estar e restaurar a dignidade dos cachorros que
+                    estão em situação de rua ou que são vítimas de maus-tratos, assegurando-lhes, além de cuidados
+                    médicos, carinho, proteção afetiva e a possibilidade de ter um novo lar para morar.</p>
+            </div>
+
+            <!-- Images -->
+            <div class="small-section bg-primary col-12 col-sm-6 d-flex">
+                <div style="background-image: url('./images/dogs_goals.png');"
+                    class="bg-img mx-auto my-auto col-12 col-sm-11">
+
+                </div>
+            </div>
+        </section>
+
+        <section style="height: 100vh;" id="contact-us" class="section">
+
+
+            <div style="height: 95vh;" class="d-flex flex-column bg-section-4 bg-img">
+
+                <!-- Button -->
+                <a class="mx-auto mt-3 btn text-black bg-secondary btn-lg btn-floating" href="#page-main" role="button">
+                    <i class="fas fa-angle-up"></i>
+                </a>
+
+                <!-- Text -->
+                <div style="height: 20vh;"
+                    class="position-relative text-center mx-auto mt-auto margin-page col-11 col-sm-7 side-by-side">
+                    <p id="lastMessage" class="transition-title text-center text-white font-final col-12 mx-auto"></p>
+                </div>
+
+                <div class="position-relative col-12 mb-auto mx-auto d-flex">
+                    <a type="button" class="btn bg-white text-black rounded-9 col-11 col-sm-2 mx-auto my-auto"
+                        href="https://www.instagram.com/marina.adota/"
+                        style="height: 3rem; font-size: larger;">Instagram <i
+                            class="ms-2 fa-md fas fa-arrow-right-long"></i></a>
+                </div>
+
+            </div>
+
+            <!-- footer-->
+            <div class="text-center bg-white p-3 d-flex" style="height: 5vh;">
+                <p class="text-black mx-auto my-auto"
+                    style=" font-size: small; height: 4%; display:flex; align-items: center; justify-content: center;"
+                    href="https://mdbootstrap.com/">Instituto Marina Adota © 2023</p>
+            </div>
+            <!--footer -->
+
+        </section>
+
+    </main>
+
+
 
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

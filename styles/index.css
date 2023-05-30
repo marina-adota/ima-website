@@ -1,1 +1,165 @@
 /* Style for index.html */
+.navbar.custom {
+    margin: 0 auto;
+    height: 50px;
+}
+
+.continous-flow {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.section, .big-section {
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 23px;
+    color: black;
+}
+
+.bg-section-4 {
+    position: relative;
+    background-image: url(../images/background_dogs.jpg);
+}
+
+.bg-section-4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.lab-size {
+    font-size: 13px;
+    color: black;
+}
+
+.textarea {
+    resize: none;
+}
+
+.font-final {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+
+.card-animal {
+    width: 13rem;
+    height: 18rem;
+}
+
+.bounce-animation {
+    animation: bounce 1.8s infinite;
+}
+
+.transition-title {
+    transition: opacity 0.5s;
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-25px);
+    }
+}
+
+.fade-bottom {
+    position: relative;
+    overflow: hidden;
+}
+
+.fade-bottom:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4rem;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+    pointer-events: none;
+}
+
+input,
+select {
+    height: 2rem;
+}
+
+.section-text { 
+    height: 60vh;
+}
+
+.small-section div{
+    height: 90%;
+}
+
+.small-section .bg-img {
+    height: 90%;
+}
+
+@media (max-width: 600px) {
+
+    .big-section {
+        height: auto;
+        scroll-snap-align: none;
+    }
+
+    .small-section {
+        height: 100vh;
+        scroll-snap-align: start;
+    }
+
+    .small-section .bg-img {
+        height: 50%;
+    }
+
+    .small-section h2 {
+        font-size: 2.7rem;
+    }
+    
+    .small-section p {
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption h5, p{
+        font-size: small;
+    }
+
+    #lastMessage {
+        font-size: x-large;
+    }
+
+    .navbar-collapse-container {
+        z-index: 1000;
+      }
+      
+}
