@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página inicial -->
+  <url>
+    <loc>https://www.marinaadota.com.br/</loc>
+    <lastmod>2023-05-30</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Página de adoção de cachorros em Salvador -->
+  <url>
+    <loc>https://www.marinaadota.com.br/adocoes.html</loc>
+    <lastmod>2023-05-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
